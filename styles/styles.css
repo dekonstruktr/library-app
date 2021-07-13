@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #d8f3dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#booklistDiv {
+    margin: auto;
+    width: 80%;
+}
+
+.bookCard {
+    vertical-align: top;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #52b788;
+    color: #b7e4c7;
+    width: 20%;
+    height: 80px;
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border: steelblue;
+    word-wrap: break-word;
+    box-shadow: 3px 5px;
+}
+
+#bookForm {
+    color: white;
+    background-color: #52b788;
+    padding: 15px;
+    margin: 2px;
+    text-align: left;
+    clear: both;
+}
+
+#bookForm input {
+    width: 100%;
+    clear: both;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #b7e4c7;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inputs {
+    text-align: right;
+}
+
+.notRead {
+    background-color: rgb(245, 126, 118);
+    color: black;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.read {
+    background-color: green;
+    color: black;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addBtn {
+    color: #aaa;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.addBtnDiv {
+    margin: auto;
+    width: 10%;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+}

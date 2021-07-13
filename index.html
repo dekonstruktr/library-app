@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="mainTitle">A Simple Library App</h1>
+
+    </header>
+
+    <div id="booklistDiv">
+
+
+    </div>
+    <div class="addBtnDiv">
+        <button id="myBtn" class="addBtn">Add New Book</button></div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span id="closeBtn" class="close">&times;</span>
+            <div id="addNewBook">
+                <h1>Add New Title</h1>
+                <form id="bookForm">
+                    <label for="newTitle">Title</label>
+                    <input class="inputs" type="text" id="newTitle" name="title"><br><br>
+                    <label for="newAuthor">Author</label><input class="inputs" type="text" id="newAuthor" name="author"><br><br>
+                    <label for="newPages">Pages</label><input class="inputs" type="number" id="newPages" name="pages"><br><br>
+                    <button id="addBtn" type="submit">add</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- <div id="addNewBook">
+
+<form id="bookForm">
+<label for="newTitle">Title</label>
+<input type="text" id="newTitle" name="title">
+<label for="newAuthor">Author</label><input type="text" id="newAuthor" name="author">
+<label for="newPages">Pages</label><input type="number" id="newPages" name="pages">
+<button id="addBtn" type="submit">add</button>
+</form>
+-->
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
